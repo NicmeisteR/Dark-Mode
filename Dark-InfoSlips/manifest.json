@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Dark InfoSlips",
+  "description" : "Dark mode for InfoSlips",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://uat-api.infoslipscloud.com/*", "https://infoslipscloud.com/*"],
+      "js": ["jquery.js","content.js", "all.js"],
+      "css": ["style.css", "all.css"]
+    }
+  ]
+}

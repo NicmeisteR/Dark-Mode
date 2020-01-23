@@ -1,0 +1,98 @@
+body {
+    background: rgb(51, 51, 51) !important;
+}
+
+h3 {
+    color: rgb(221, 221, 221) !important;
+}
+
+.k-item--tabstrip.k-state-active {
+    background-color: rgb(51, 51, 51);
+}
+
+.k-content, k-state-active {
+    background-color: rgb(51, 51, 51);
+}
+
+.pg-content {
+    border: none !important;
+}
+
+#runReports {
+    display: none !important;
+}
+
+#A1 {
+    display: none !important;
+}
+
+#A4 {
+    display: none !important;
+}
+
+/* .pg-sidebar__list:nth-child(2) {
+    display: none !important;
+} */
+
+.pg-container {
+    max-width: 1200px;
+}
+
+#templatesTabbar-3, #scheduledruns {
+    display: none !important;
+}
+
+.k-item--tabstrip.k-state-active {
+    background-color: rgb(51, 51, 51) !important;
+    border-top: 8px solid #7faa4a !important;
+}
+
+ul.k-tabstrip-items.k-reset {
+    border-left: none !important;
+}
+
+.k-tabstrip-items {
+    border: 1px solid #7faa4a;
+    font-size: 16px;
+    background-color: rgb(51, 51, 51) !important;
+}
+
+.k-item--tabstrip {
+    border-top: 8px solid #333333!important;
+}
+
+.pg-sidebar {
+    width: 30% !important;
+}
+
+.pg-header-list {
+    background-color: #333333 !important;
+    margin-bottom: 40px !important;
+    border-bottom: 8px solid #7faa4a !important;
+}
+
+
+html[dir] .iFKgT {
+    background-color: #3b3b3b !important;
+    cursor: default;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+html[dir] ._1FPJ-:after {
+    /* background-color: #00697c !important; */
+    background-color: #333333 !important;
+}
+
+[data-asset-intro-image] {
+    background-image: url(/img/intro-connection_c98cc75….jpg);
+}
+
+html[dir] .NuujD {
+    background-color: #3b3b3b !important;
+}
+
+html[dir] ._3Jvyf {
+    background-color: #3b3b3b !important;
+    padding: 10px 16px;
+}
