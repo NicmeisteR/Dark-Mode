@@ -1,0 +1,152 @@
+/* JIRA */
+body {
+   background: rgb(51, 51, 51) !important;
+}
+
+.aui-page-header, .aui-page-panel, .aui-page-panel-nav {
+    background-color: rgb(51, 51, 51) !important;
+    border: 0 solid transparent;
+}
+
+#ghx-pool {
+    background: rgb(51, 51, 51) !important;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#ghx-column-header-group.ghx-fixed {
+    position: absolute;
+    background: rgb(51, 51, 51) !important;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+h1, h1>span {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color: #7faa4a !important;
+    font-size: 29px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -.29px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#content #search-header-view .header-section-primary .aui-nav>li>h1, #content #search-header-view .header-section-primary .aui-page-header-inner>h1, #content #search-header-view .header-section-primary .module>.mod-header>h3, #content #search-header-view .header-section-primary .search-title, #content #search-header-view .header-section-primary .subnavigator-title, #content #search-header-view .header-section-primary>h1, #content .aui-page-header-main .aui-nav>li>h1, #content .aui-page-header-main .aui-page-header-inner>h1, #content .aui-page-header-main .module>.mod-header>h3, #content .aui-page-header-main .search-title, #content .aui-page-header-main .subnavigator-title, #content .aui-page-header-main>h1, #content .aui-page-panel .aui-nav>li>h1, #content .aui-page-panel .aui-page-header-inner>h1, #content .aui-page-panel .module>.mod-header>h3, #content .aui-page-panel .search-title, #content .aui-page-panel .subnavigator-title, #content .aui-page-panel>h1 {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    color:  #7faa4a !important;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -.24px;
+    margin-top: 28px;
+    margin-top: 0;
+}
+
+.adg3 .ghx-content-main .ghx-swimlane-header .ghx-heading span:not(.aui-lozenge-current) {
+    color: #8cbe50 !important;
+}
+
+.adg3 .ghx-column-headers .ghx-column, .adg3 .ghx-columns .ghx-column {
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    background: #3b3b3b !important;
+}
+
+.adg3 .ghx-column-headers .ghx-qty {
+    color:#8cbe50 !important;
+    font-size: 0.85714286em;
+    font-weight: 600;
+    line-height: 1.33333333;
+    margin-top: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 3px;
+    flex: 0 1 auto;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.adg3 .ghx-column h2 {
+    color: #f8f8f8 !important;
+    font-size: 0.85714286em;
+    font-weight: 600;
+    line-height: 1.33333333;
+    margin-top: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 3px;
+    flex: 0 100 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ghx-swimlane-header:after {
+    background-color: rgb(51, 51, 51) !important;
+    -webkit-box-shadow: -5px 0 10px 5px rgb(51, 51, 51) !important;;
+    box-shadow: -5px 0 10px 5px rgb(51, 51, 51) !important;;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 10px;
+}
+
+.css-4rxc6l {
+    box-sizing: border-box;
+    height: 100%;
+    left: 0;
+    min-width: 240px;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #3b3b3b !important;
+    color: #7faa4a !important;
+    -webkit-animation-duration: 0.22s;
+    animation-duration: 0.22s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.2,0,0,1);
+    animation-timing-function: cubic-bezier(0.2,0,0,1);
+    -webkit-transition-property: boxShadow,transform;
+    transition-property: boxShadow,transform;
+    -webkit-transition-duration: 0.22s;
+    transition-duration: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.2,0,0,1);
+    transition-timing-function: cubic-bezier(0.2,0,0,1);
+}
+
+.adg3 .ghx-issue, .adg3 .ghx-issue.ghx-selected {
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px 0px rgba(9, 30, 66, 0.25);
+    background: hsla(88, 100%, 88%, 0.88) !important;
+}
+
+.adg3 .ghx-summary, .adg3 .ghx-summary .ghx-inner {
+    color: black !important;
+}
+
+a.css-1i1hrbk {
+    color: #7faa4a !important;
+}
+
+a:focus, button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #8cbe50 !important;;
+}
+
+.css-889cso:focus {
+    opacity: 1;
+    background-color: #8cbe50 !important;
+    color: white;
+}

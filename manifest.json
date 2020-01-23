@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Jira",
+  "description": "Dark mode for the Atlassian Jira Software",
+  "author": "Nicolaas 'NicmeisteR' Nel",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches":  ["https://infoslips.atlassian.net/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "favicon.ico"
+  }
+}
